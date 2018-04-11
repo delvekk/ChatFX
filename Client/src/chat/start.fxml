@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml" stylesheets="@/chat/style.css"
+          fx:controller="chat.StartController" alignment="CENTER" vgap="3">
+    <Label text="Address: " GridPane.columnIndex="0" GridPane.rowIndex="1"></Label>
+    <Label text="Port: " GridPane.columnIndex="0" GridPane.rowIndex="2" ></Label>
+    <Label text="Name: " GridPane.columnIndex="0" GridPane.rowIndex="3"></Label>
+    <TextField fx:id="addressField" GridPane.columnIndex="1" GridPane.rowIndex="1"></TextField>
+    <TextField fx:id="portField" GridPane.columnIndex="1" GridPane.rowIndex="2"></TextField>
+    <TextField fx:id="nameField" GridPane.columnIndex="1" GridPane.rowIndex="3"></TextField>
+    <Button fx:id="btnOpenNewWindow" GridPane.columnIndex="1" GridPane.rowIndex="4" text="Connect"></Button>
+</GridPane>

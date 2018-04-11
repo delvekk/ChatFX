@@ -1,0 +1,81 @@
+.button{
+    -fx-background-color: rgba(0, 0, 0, 0.8);
+    -fx-text-fill: blue;
+    -fx-background-radius: 40px;
+}
+
+.button:focused{
+    -fx-border-color:orange;
+    -fx-border-radius:40px;
+}
+
+.button:hover{
+   -fx-text-fill:white;
+ -fx-border-radius:40px;
+
+}
+
+.button:pressed{
+-fx-border-color:orange;
+-fx-text-fill: white;
+}
+
+GridPane, BorderPane{
+-fx-background-color: rgba(0, 0, 0, 0.85);
+}
+
+.label {
+-fx-text-fill: rgba(0, 0, 205, 1);
+}
+
+VBox{
+-fx-background-color:rgba(255, 255, 255, 0.8);
+-fx-border-color:rgba(255, 255, 255, 0.8);
+-fx-border-radius: 5px;
+-fx-background-radius: 5px;
+}
+
+.text-area .content{
+-fx-background-color: black;
+-fx-background-radius: 5px;
+-fx-border-radius: 10px;
+}
+
+.text-area{
+-fx-focus-color: white;
+-fx-text-fill:white;
+}
+
+.menu, .context-menu, .menu-item, .menu-bar{
+-fx-margin: 5px;
+-fx-background-color:black;
+}
+
+.menu:pressed, .menu-item:pressed{
+-fx-border-color:orange;
+}
+
+.menu-item, .menu{
+-fx-border-color:white;
+-fx-border-radius: 10px;
+}
+
+.list-view .list-cell{
+-fx-text-fill:white;
+-fx-background-color: black;
+-fx-border-color:  rgba(0, 0, 205, 0.2);
+}
+
+.text-field{
+-fx-border-color:rgba(255, 255, 255, 0.8);
+-fx-border-radius: 10px;
+-fx-background-radius: 10px;
+-fx-background-color: black;
+-fx-text-fill:white;
+}
+
+.text-field:focused{
+-fx-border-color:orange;
+}
+
+
