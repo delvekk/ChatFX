@@ -1,4 +1,5 @@
-# ChatFX
+# Multi-Client ChatFX
 
 
-Multiclient Chat
+Java Chat application with GUI.
+
